@@ -72,6 +72,7 @@ final class Loader {
 			Cookies::class,
 			DevReport::class,
 			MasterSite::class,
+			HttpHeaders::class,
 		];
 
 		if ( is_admin() ) {
