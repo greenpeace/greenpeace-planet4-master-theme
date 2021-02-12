@@ -19,11 +19,11 @@
       'gPlatform': 'Planet 4'
     });
 
-    (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    {# (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
     h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
     })(window,document.documentElement,'google-optimize-loading','dataLayer',4000,
-    {'{{ google_tag_value }}':true});
+    {'{{ google_tag_value }}':true}); #}
 
     {% if not post.password_required %}
       var cf_campaign_name = '{% if cf_campaign_name is defined and cf_campaign_name is not null %}{{ cf_campaign_name|raw }}{% endif %}';
@@ -53,7 +53,7 @@
       gtm_allow = false;
     }
 
-    if ( google_tag_value && gtm_allow) {
+    {# if ( google_tag_value && gtm_allow) {
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
@@ -66,6 +66,8 @@
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
       })(window, document, 'script', 'dataLayer', google_tag_value);
-    }
+    } #}
   </script>
+  <script async src="https://www.googleoptimize.com/optimize.js?id={{ google_tag_value }}"></script>
+
 {% endif %}
