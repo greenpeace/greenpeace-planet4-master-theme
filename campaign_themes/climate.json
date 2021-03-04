@@ -87,19 +87,9 @@
 			}
 		},
 		{
-			"id": "campaign_header_color",
-			"options": [
-			]
-		},
-		{
 			"id": "campaign_primary_color",
 			"options": [
 				{ "value": "#66cc00" }
-			]
-		},
-		{
-			"id": "campaign_secondary_color",
-			"options": [
 			]
 		},
 		{
