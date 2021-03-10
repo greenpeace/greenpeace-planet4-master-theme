@@ -93,16 +93,6 @@
 			"default": "#000000"
 		},
 		{
-			"id": "campaign_primary_color",
-			"options": [
-			]
-		},
-		{
-			"id": "campaign_secondary_color",
-			"options": [
-			]
-		},
-		{
 			"id": "campaign_header_primary",
 			"options": [
 				{

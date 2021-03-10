@@ -87,21 +87,6 @@
 			}
 		},
 		{
-			"id": "campaign_header_color",
-			"options": [
-			]
-		},
-		{
-			"id": "campaign_primary_color",
-			"options": [
-			]
-		},
-		{
-			"id": "campaign_secondary_color",
-			"options": [
-			]
-		},
-		{
 			"id": "campaign_header_primary",
 			"options": [
 				{
